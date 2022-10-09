@@ -1,4 +1,4 @@
-# -Burial-Database-plugin
+# Burial-Database-plugin
 Burial Database plugin for Wordpress
 
 # Opportunities
