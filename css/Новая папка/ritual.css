@@ -1,0 +1,147 @@
+#app {
+    width: 950px !important;
+    max-width: 950px !important;
+}
+
+[v-cloak] { display: none; }
+
+.filter__form  {
+    display: flex;
+    justify-content: center;
+}
+
+.ritual__form {
+    flex-direction: column;
+}
+
+.filter__group {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.filter__group {
+    padding: 0 15px;
+}
+
+.ritual__group {
+    padding: 15px 0;
+}
+
+.filter__input {
+    padding: 12px !important;
+    border: 1px solid #ced4da;
+    width: 100%;
+    border-radius: 2px !important;
+}
+
+.filter__select {
+    position: relative;
+    width: 100%;
+    padding: 15px 12px;
+    border: 1px solid #ced4da;
+    font-size: 12px;
+    color: #757575;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../images/arrow.svg) no-repeat center right 15px #fff;
+    height: 51.59px;
+}
+
+.filter__button {
+    align-self: end;
+    padding: 12px !important;
+    border: 1px solid #03a9f4;
+    background-color: #03a9f4;
+    border-radius: 2px !important;
+    color: #fff;
+    cursor: pointer;
+}
+
+.filter__button:hover {
+    background-color: #1b3958;
+}
+
+.result__item {
+    display: flex;
+    flex-wrap: nowrap;
+    border-top: 1px solid #dadada;
+    padding: 20px 0;
+    max-width: 940px;
+}
+
+.result__description, .result__map {
+    flex-basis: 50%;
+}
+
+.result__map {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.result__description {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.result__name {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #03a9f4;
+  text-decoration: none;
+}
+
+.result__link {
+    cursor: pointer;
+    border: none;
+    display: flex;
+    padding: 10px 20px;
+    background-color: #6ec1e4;
+    color: #fff;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: center;
+    border-radius: 2px;
+    transition: all .3s;
+    font-weight: 700;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.result__link:hover {
+  background-color: #357692;
+}
+
+#kw-pagination {
+    display: flex;
+    justify-content: center;
+}
+
+#kw-pagination a {
+    display: inline-block;
+    position: relative;
+    width: 28px;
+    padding: 8px 0 6px;
+    margin-left: 0;
+    color: #333;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#kw-pagination a.active {
+    border: 1px solid #03a9f4;
+}
+
+

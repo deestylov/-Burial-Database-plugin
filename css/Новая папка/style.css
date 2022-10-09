@@ -1,0 +1,109 @@
+.wrap-form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.wrap-form h1 {
+    text-align: center;
+}
+
+.filter__form, .ritual__form  {
+    display: flex;
+    justify-content: center;
+}
+
+.ritual__form {
+    flex-direction: column;
+}
+
+.filter__group, .ritual__group {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.filter__group {
+    padding: 0 15px;
+}
+
+.ritual__group {
+    padding: 15px 0;
+}
+
+.filter__input {
+    padding: 12px !important;
+    border: 1px solid #ced4da;
+    width: 100%;
+    border-radius: 2px !important;
+}
+
+.filter__select {
+    position: relative;
+    width: 100%;
+    padding: 15px 12px;
+    border: 1px solid #ced4da;
+    font-size: 12px;
+    color: #757575;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../images/arrow.svg) no-repeat center right 15px #fff;
+    height: 51.59px;
+}
+
+.filter__button {
+    align-self: end;
+    padding: 12px !important;
+    border: 1px solid #ced4da;
+    border-radius: 2px !important;
+}
+
+
+.pagination {
+    display: flex;
+}
+
+.pagination li {
+    padding: 5px;
+}
+
+.pagination li.active a {
+    font-weight: bold;
+}
+
+.form-import {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap-import {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form-import__group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 20px;
+}
+
+#progressbar {
+    width: 100%;
+    background-color: grey;
+}
+
+#bar {
+    width: 0%;
+    height: 30px;
+    background-color: #2196F3;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#log {
+    margin-top: 30px;
+}
